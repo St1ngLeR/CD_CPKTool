@@ -3,6 +3,8 @@
 > [!WARNING]
 > The tool is not made for the Redline Edition! For Redline Edition use ZIP-files with renamed ".CPK" file extension.
 
+To work with the program, you must use the *Command Prompt* or specify the arguments in advance in the *.BAT file*.
+
 ```
 Usage: CD_CPKTool.exe <COMMAND>
 
