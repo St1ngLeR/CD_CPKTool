@@ -65,7 +65,7 @@ void help()
 	cout << "\n  unpack\tUnpack / extract files from the archive [aliases: extract, ex, e, x, u, up]";
 	cout << "\n  pack\t\tPack / archive files from the archive [aliases: archive, ar, a, p]";
 	cout << "\n  help\t\tPrint help information [aliases: h]";
-	cout << "\n  version\tPrint version information [aliases v]\n";
+	cout << "\n  version\tPrint version information [aliases: v]\n";
 }
 
 void version()
