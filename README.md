@@ -1,5 +1,5 @@
-# CD_CDKTool
-**Crashday Package Tool (CDKTool)** - a tool for CPK (Crashday Package) files, which were originally used to install mods for "classic" Crashday from 2006 via "CarManager" tool from SDK.
+# CD_CPKTool
+**Crashday Package Tool (CPKTool)** - a tool for CPK (Crashday Package) files, which were originally used to install mods for "classic" Crashday from 2006 via "CarManager" tool from SDK.
 > [!WARNING]
 > The tool is not made for the Redline Edition! For Redline Edition use ZIP-files with renamed ".CPK" file extension.
 
