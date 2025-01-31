@@ -26,3 +26,11 @@ Commands:
   unpack <CPK_NAME> [OUTPUT_DIR] [TRKDATA_DIR]    Default value for output directory is input CPK file name. For car folder name is null.
   pack <INPUT_DIR> [CPK_NAME]                     Default value for output CPK file name is input folder with ".CPK" file extension.
 ```
+
+![image](https://github.com/user-attachments/assets/0cb614a5-3b01-4779-8025-0f55f3e0b6b5)
+
+![image](https://github.com/user-attachments/assets/45848e71-5e52-40b5-8a57-bdc56c0211a3)
+
+![image](https://github.com/user-attachments/assets/83a46951-7746-40a5-a022-b4c29e46885c)
+
+![image](https://github.com/user-attachments/assets/7bdb0d77-5403-4b2b-9a47-2df35df33b29)
