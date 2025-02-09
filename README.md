@@ -11,7 +11,7 @@ Usage: CD_CPKTool.exe <COMMAND>
 Commands:
   list          List all files in the archive [aliases: l, ls]
   unpack        Unpack / extract files from the archive [aliases: extract, ex, e, x, u, up]
-  pack          Pack / archive files from the archive [aliases: archive, ar, a, p]
+  pack          Pack / archive files to the archive [aliases: archive, ar, a, p]
   help          Print help information [aliases: h]
   version       Print version information [aliases: v]
 ```
