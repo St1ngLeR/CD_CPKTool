@@ -63,7 +63,7 @@ void help()
 	cout << bold << underline << "Commands:" << reset;
 	cout << "\n  list\t\tList all files in the archive [aliases: l, ls]";
 	cout << "\n  unpack\tUnpack / extract files from the archive [aliases: extract, ex, e, x, u, up]";
-	cout << "\n  pack\t\tPack / archive files from the archive [aliases: archive, ar, a, p]";
+	cout << "\n  pack\t\tPack / archive files to the archive [aliases: archive, ar, a, p]";
 	cout << "\n  help\t\tPrint help information [aliases: h]";
 	cout << "\n  version\tPrint version information [aliases: v]\n";
 }
