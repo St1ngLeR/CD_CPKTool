@@ -70,7 +70,7 @@ void help()
 
 void version()
 {
-	cout << "CPKTool 1.0.0" << endl;
+	cout << "CPKTool 1.0.1" << endl;
 }
 
 void errmsg_args(string subcommand, string arguments[], int length)
@@ -144,7 +144,7 @@ void unpack(const char* target_file, const char* output_dir = NULL, const char* 
 
 	if (stat(target_file, &sb) == 0 && !(sb.st_mode & S_IFDIR))
 	{
-		_mkdir(output_dir2.c_str());
+		filesystem::create_directories(output_dir2);	//_mkdir(output_dir2.c_str());
 
 		ifstream file(target_file, ios::binary);
 		file.seekg(0, ios::beg);
@@ -292,10 +292,10 @@ void pack(const char* target_dir, const char* output_file = NULL)
 			cout << "Adding file '" << filePath << "'... ";
 			size = filesystem::file_size(target_dir + string("\\") + filePath);
 			ifstream file(target_dir + string("\\") + filePath, ios::binary);
-			char buffer[1];
+			char buffer[4096];
 			while (file.good())
 			{
-				file.read(buffer, 1);
+				file.read(buffer, sizeof(buffer));
 				cpkfile.write(buffer, file.gcount());
 			}
 			
